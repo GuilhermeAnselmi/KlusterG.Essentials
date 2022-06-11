@@ -2,7 +2,7 @@
 
 namespace KlusterG.Essentials
 {
-    public class Essentials
+    public class Essent
     {
         public static Tuple<bool, string> IsTextNumeric(string value, bool space = true)
         {
