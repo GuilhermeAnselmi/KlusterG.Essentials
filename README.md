@@ -14,10 +14,10 @@
 
 ## Command Line
 * Access the Package Manager Console
-* Type the command ```Install-Package KlusterG.Essentials -Version 1.0.0```
+* Type the command ```Install-Package KlusterG.Essentials -Version 1.0.1```
 
 ## .NET CLI
-* Type the command ```dotnet add package KlusterG.Essentials --version 1.0.0```
+* Type the command ```dotnet add package KlusterG.Essentials --version 1.0.1```
 
 # All Functions
 
