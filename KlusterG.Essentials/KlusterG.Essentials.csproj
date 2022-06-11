@@ -8,6 +8,9 @@
     <Authors>Guilherme Marques</Authors>
     <Company>KlusterG</Company>
     <Description>Basic checks library to make programming certain commonly used checks easier and faster.</Description>
+	<RepositoryUrl>https://github.com/GuilhermeAnselmi/KlusterG.Essentials</RepositoryUrl>
+	<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+	<PackageRequireLicenseAcceptance>False</PackageRequireLicenseAcceptance>
   </PropertyGroup>
 
 </Project>
