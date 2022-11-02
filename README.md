@@ -32,3 +32,5 @@
 * IsValidCpf(string value)
 * IsValidRg(string value)
 * IsValidCnpj(string value)
+
+#### Alert! Custom special characters follow the same rules as regular expressions, so be careful when using special characters.
