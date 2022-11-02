@@ -25,6 +25,7 @@
 * IsEmail(string value)
 * IsPassword(string value, bool text = true, bool number = true, int min = 3, int max = 10, string characters = "@!")
 * IsText(string value, bool space = true)
+* IsCustomText(string value, string characters, bool space = true)
 * IsPercentage(string value)
 * IsMoney(string value)
 * IsNumeric(string value, bool realNumber = false)
