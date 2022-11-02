@@ -93,6 +93,24 @@ namespace KlusterG.Essentials
             return false;
         }
 
+        public bool IsCustomText(string value, string characters, bool space = true)
+        {
+            if (value == null)
+            {
+                Reason = Reasons.IsNull;
+                return false;
+            }
+
+            string spaceR = "";
+
+            if (space) spaceR = " ";
+
+            if (Regex.IsMatch(value, $"^[a-zA-Z{characters}{spaceR}]+$")) return true;
+
+            Reason = Reasons.Invalid;
+            return false;
+        }
+
         public bool IsPercentage(string value)
         {
             if (value == null)
