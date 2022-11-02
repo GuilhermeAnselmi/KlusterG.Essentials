@@ -14,10 +14,10 @@
 
 ## Command Line
 * Access the Package Manager Console
-* Type the command ```Install-Package KlusterG.Essentials -Version 1.0.1```
+* Type the command ```Install-Package KlusterG.Essentials -Version 2.0.0```
 
 ## .NET CLI
-* Type the command ```dotnet add package KlusterG.Essentials --version 1.0.1```
+* Type the command ```dotnet add package KlusterG.Essentials --version 2.0.0```
 
 # All Functions
 
@@ -29,3 +29,5 @@
 * IsMoney(string value)
 * IsNumeric(string value, bool realNumber = false)
 * IsValidCpf(string value)
+* IsValidRg(string value)
+* IsValidCnpj(string value)
